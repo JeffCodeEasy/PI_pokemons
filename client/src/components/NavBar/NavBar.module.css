@@ -1,0 +1,200 @@
+.navBar {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    padding: 10px; /* Espaciado interno para los enlaces */
+    padding-bottom: 0%;
+    padding-top: 0%;
+  }
+  
+  .navBar a {
+    text-decoration: none;
+    color: #fff; /* Color del texto de los enlaces */
+    margin: 0 10px; /* Margen horizontal entre los enlaces */
+    padding: 5px 10px; /* Espaciado interno para los enlaces */
+    border-radius: 10px; /* Bordes redondeados para los enlaces */
+    transition: background-color 0.3s; /* Animación de cambio de color */
+  }
+  
+  .navBar a:hover {
+    background-color: #0a0ca3; /* Color morado en el hover */
+  }
+  
+  .button {
+    margin-left: auto; /* Coloca el elemento al final del lado izquierdo */
+    width: 100px;
+}
+
+.searchInput {
+    padding: 9px 10px 9px 32px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 15px;
+    color: #444;
+    border: 3px solid #1100ff;
+    background: #fff url("../../assets/search-icon.png")
+    no-repeat 9px center;
+    transition: all .5s;
+    margin-left: 640px;
+    width: 60px;
+  }
+  
+  .searchInput:hover{
+    width: 110px;
+    background-color: #fff;
+    border-color: #8c10b3;
+    box-shadow: 0 0 5px #6dcff680;
+  }
+
+  .icons{
+    height: 20px;
+    width: 20px;
+    color: white;
+  }
+
+/* Estilos para el reproductor de audio */
+.audio {
+ border-radius: 20px;
+ background: none;
+ color: white; 
+}
+
+@media (min-width: 1400px) {
+  .searchInput {
+    padding: 9px 10px 9px 32px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 15px;
+    color: #444;
+    border: 3px solid #1100ff;
+    background: #fff url("../../assets/search-icon.png")
+    no-repeat 9px center;
+    transition: all .5s;
+    margin-left: 1140px;
+    width: 60px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .searchInput {
+    padding: 9px 10px 9px 32px;
+    outline: none;
+    font-size: 10px;
+    border-radius: 15px;
+    color: #444;
+    border: 3px solid #1100ff;
+    background: #fff url("../../assets/search-icon.png")
+    no-repeat 9px center;
+    transition: all .5s;
+    margin-left: 10px;
+    width: 10px;
+  }
+  .searchInput:hover{
+    width: 17px;
+    background-color: #fff;
+    border-color: #8c10b3;
+    box-shadow: 0 0 5px #6dcff680;
+  }
+
+  .audio {
+    border-radius: 20px;
+    background: none;
+    color: white; 
+    width: 10px;
+   }
+
+   .icons{
+    height: 20px;
+    width: 25px;
+    color: white;
+    padding: 0%;
+    margin-left:12px;
+  }
+
+  .navBar {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    padding: 5px; /* Espaciado interno para los enlaces */
+    padding-bottom: 0%;
+    padding-top: 0%;
+  }
+  
+  .navBar a {
+    text-decoration: none;
+    color: #fff; /* Color del texto de los enlaces */
+    margin-left: 3px; /* Margen horizontal entre los enlaces */
+    margin-right: 18px; /* Margen horizontal entre los enlaces */
+    border-radius: 10px; /* Bordes redondeados para los enlaces */
+    transition: background-color 0.3s; /* Animación de cambio de color */
+    width: 10px;
+  }
+
+  .navBar a:hover {
+    background: none; /* Color morado en el hover */
+  }
+
+  .button {
+    margin-left: -25px; /* Coloca el elemento al final del lado izquierdo */
+    width: 75px;
+}
+
+.audio{
+  width: 60px;
+  margin:0%
+}
+
+}
+
+@media(max-width: 768px){
+  .searchInput {
+    padding: 9px 10px 9px 32px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 15px;
+    color: #444;
+    border: 3px solid #1100ff;
+    background: #fff url("../../assets/search-icon.png")
+    no-repeat 9px center;
+    transition: all .5s;
+    margin-left: 80px;
+    width: 60px;
+  }
+}
+
+@media(max-width: 498px){
+  .searchInput {
+    padding: 9px 10px 9px 32px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 15px;
+    color: #444;
+    border: 3px solid #1100ff;
+    background: #fff url("../../assets/search-icon.png")
+    no-repeat 9px center;
+    transition: all .5s;
+    margin-left: 30px;
+    width: 50px;
+  }
+
+  .searchInput:hover{
+    width: 70px;
+    background-color: #fff;
+    border-color: #8c10b3;
+    box-shadow: 0 0 5px #6dcff680;
+  }
+
+  .button {
+    margin-left: -25px; /* Coloca el elemento al final del lado izquierdo */
+    width: 60px;
+}
+
+}
+
+
+
+
+
+
+

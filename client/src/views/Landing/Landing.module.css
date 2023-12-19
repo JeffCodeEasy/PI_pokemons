@@ -1,0 +1,64 @@
+.pokemonLanding {
+    background-image: url('../../assets/Landing-pokemon.jpg');
+    background-size: cover; /* Ajusta la imagen al tamaño de la pantalla */
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin: 0; /* Asegúrate de que no haya margen alrededor del elemento */
+    padding: 0; 
+}
+
+
+.button{
+    height: 20%;
+    width: 30%;
+    margin-right: 889px;
+    margin-top: 150px;
+    filter: brightness(100%);
+    transition: filter 0.3s ease;
+}
+
+.button:hover {
+    /* Cuando el cursor está sobre la imagen, aumenta el brillo */
+    filter: brightness(120%); /* Puedes ajustar el valor según tu preferencia */
+  }
+
+
+
+  @media (max-width: 600px) {
+    .pokemonLanding {
+        background-image: url('../../assets/Landing-pokemon.jpg');
+        background-size: cover; /* Ajusta la imagen al tamaño de la pantalla */
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 327vw;
+        height: 327vh;
+        margin: 0; /* Asegúrate de que no haya margen alrededor del elemento */
+        padding: 0; 
+    }
+
+  }
+
+  @media(max-width: 768px){
+    .pokemonLanding {
+        background-image: url('../../assets/Landing-pokemon.jpg');
+        background-size: cover; /* Ajusta la imagen al tamaño de la pantalla */
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 255vw;
+        height: 168vh;
+        margin: 0; /* Asegúrate de que no haya margen alrededor del elemento */
+        padding: 0; 
+    }
+
+    .button{
+        height: 20%;
+        width: 30%;
+        margin-right: 889px;
+        margin-top: 150px;
+        filter: brightness(100%);
+        transition: filter 0.3s ease;
+    }
+  }
+

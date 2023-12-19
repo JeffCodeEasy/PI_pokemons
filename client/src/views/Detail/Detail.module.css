@@ -1,0 +1,189 @@
+.detail{
+    background-image: url('../../assets/detailPokemon.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.resultsSummaryContainer {
+    font-family: "Hanken Grotesk", sans-serif;
+    display: flex;
+    -ms-flex-align: center;
+    width: 700px;
+    height: 500px;
+    gap: 10px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px rgba(120, 87, 255, 0.3);
+    backface-visibility: hidden;
+    position: relative;
+    top: 98px;
+    left: 70px;
+    background-color: red;
+}
+  
+  .headingPrimary,
+  .headingSecondary,
+  .headingTertiary {
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  
+  .headingSecondary {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    
+}
+  
+  
+  .headingSecondaryBlue {
+    color: hsl(224, 30%, 27%);
+  }
+  
+  .headingTertiary {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: hsl(221, 100%, 96%);
+  }
+  
+  .paragraph {
+    font-size: 17px;
+    line-height: 1.6;
+    color: hsl(221, 100%, 96%);
+    margin-bottom: 15px;
+  }
+  
+  .paragraph-text-box {
+    width: 100%;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .margin-1 {
+    margin-bottom: 10px;
+  }
+  
+  .resultsSummaryContainerResult {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+    border-radius: 30px 10px;
+    background-image: linear-gradient(to bottom, rgb(21, 204, 82), white);
+    animation: gradient 10s linear infinite;
+    .resultBox {
+      width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-position: 100% 50%;
+    background-image: linear-gradient(to bottom, #aa076b, #61045f);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    animation: gradient 10s linear infinite;
+  }
+  
+  .result {
+    margin-top: -18px;
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(241, 100%, 89%);
+  }
+  }
+  
+  .resultsSummaryContainerOptions {
+    padding: 10px;
+    padding-left: 60px;
+  }
+  
+  .summaryResultOptions {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .resultOption {
+    width: 210px;
+    height: 36px;
+    background-color: hsl(0, 100%, 95%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .resultOptionMemory {
+    background-color: hsl(39, 100%, 95%);
+  }
+  
+  .resultOptionVerbal {
+    background-color: hsl(166, 100%, 95%);
+  }
+  
+  .resultOptionVisual {
+    background-color: hsl(234, 85%, 95%);
+  }
+  
+  .iconBox {
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    gap: 1px;
+  }
+  
+  .reactionIconText {
+    color: hsl(0, 100%, 67%);
+  }
+  
+  .memoryIconText {
+    color: hsl(39, 100%, 56%);
+  }
+  
+  .verbalIconText {
+    color: hsl(166, 100%, 37%);
+  }
+  
+  .visual-icon-text {
+    color: hsl(234, 85%, 45%);
+  }
+  
+  .resultBox {
+    font-size: 14px;
+    color: hsl(241, 100%, 89%);
+    font-weight: 700;
+  }
+  
+  .resultBox span {
+    font-size: 14px;
+    color: hsl(224, 30%, 27%);
+  }
+  
+  
+  .icon {
+    cursor: pointer;
+    filter: grayscale(1);
+    transition: 0.3s linear;
+  }
+  
+  .icon:hover {
+    filter: grayscale(0);
+  }
